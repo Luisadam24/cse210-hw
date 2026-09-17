@@ -4,64 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
-    }
-    public class Fraction
-    {
-        private int _top;
-        private int _bottom;
+        Fraction fraction1 = new Fraction();
+        Fraction fraction2 = new Fraction(5);
+        Fraction fraction3 = new Fraction(3, 4);
+        Fraction fraction4 = new Fraction(1, 3);
 
-        // Constructors
-        public Fraction()
-        {
-            _top = 1;
-            _bottom = 1;
-        }
+        Console.WriteLine(fraction1.GetFractionString());
+        Console.WriteLine(fraction1.GetDecimalValue());
 
-        public Fraction(int top)
-        {
-            _top = top;
-            _bottom = 1;
-        }
+        Console.WriteLine(fraction2.GetFractionString());
+        Console.WriteLine(fraction2.GetDecimalValue());
 
-        public Fraction(int top, int bottom)
-        {
-            _top = top;
-            _bottom = bottom;
-        }
+        Console.WriteLine(fraction3.GetFractionString());
+        Console.WriteLine(fraction3.GetDecimalValue());
 
-        // Getters
-        public int GetTop()
-        {
-            return _top;
-        }
-
-        public int GetBottom()
-        {
-            return _bottom;
-        }
-
-        // Setters
-        public void SetTop(int top)
-        {
-            _top = top;
-        }
-
-        public void SetBottom(int bottom)
-        {
-            _bottom = bottom;
-        }
-
-        // Returns the fraction as a string
-        public string GetFractionString()
-        {
-            return $"{_top}/{_bottom}";
-        }
-
-        // Returns the decimal value
-        public double GetDecimalValue()
-        {
-            return (double)_top / _bottom;
-        }
+        Console.WriteLine(fraction4.GetFractionString());
+        Console.WriteLine(fraction4.GetDecimalValue());
     }
 }
