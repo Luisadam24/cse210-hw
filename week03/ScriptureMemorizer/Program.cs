@@ -10,9 +10,9 @@ class Program
         Console.WriteLine("===================");
         Console.WriteLine();
         Console.WriteLine("Choose a scripture to memorize:");
-        Console.WriteLine("1. John 3:16");
-        Console.WriteLine("2. Proverbs 3:5-6");
-        Console.WriteLine("3. Philippians 4:13");
+        Console.WriteLine("1. Genesis 1:1");
+        Console.WriteLine("2. Isaiah 1:18");
+        Console.WriteLine("3. Matthew 15:14");
         Console.WriteLine();
 
         Console.Write("Enter your choice: ");
