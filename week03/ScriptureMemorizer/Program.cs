@@ -23,20 +23,18 @@ class Program
 
         if (choice == "1")
         {
-            reference = new Reference("John", 3, 16);
-            text = "For God so loved the world, that he gave his only begotten Son, " +
-                   "that whosoever believeth in him should not perish, but have everlasting life.";
+            reference = new Reference("Genesis", 1, 1);
+            text = "In the beginning God created the heaven and the earth.";
         }
         else if (choice == "2")
         {
-            reference = new Reference("Proverbs", 3, 5, 6);
-            text = "Trust in the Lord with all thine heart; and lean not unto thine own understanding. " +
-                   "In all thy ways acknowledge him, and he shall direct thy paths.";
+            reference = new Reference("Isaiah", 1, 18);
+            text = "Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.";
         }
         else if (choice == "3")
         {
-            reference = new Reference("Philippians", 4, 13);
-            text = "I can do all things through Christ which strengtheneth me.";
+            reference = new Reference("Matthew", 15, 14);
+            text = "Let them alone: they be blind leaders of the blind. And if the blind lead the blind, both shall fall into the ditch.";
         }
         else
         {
